@@ -9,12 +9,12 @@ npm install unit
 ## EXAMPLE
 
 ```ts
-import { Unit } from './src/index'
+const { Unit } = require('ai-unit')
 async function main() {
   try {
     const unitClient = new Unit({
-      apikey:    'QMIRPurLCGGk5eIbVlcgy2LU', 
-      secretkey: 'aoeA8nVdGQ4ZKc56tHWYVzqDEi5knBGh', 
+      apikey:    'your key', 
+      secretkey: 'yout secret key', 
       sceneid:   '15386'
     })
     const sessionId = Date.now()

@@ -1,5 +1,5 @@
 {
-  "name": "unit-api",
+  "name": "ai-unit",
   "version": "1.0.0",
   "description": "baidu nlu platform UNIT API",
   "main": "dist/index.js",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lijiarui/unit.git"
+    "url": "git+https://github.com/lijiarui/ai-unit.git"
   },
   "bugs": {
-    "url": "https://github.com/lijiarui/unit/issues"
+    "url": "https://github.com/lijiarui/ai-unit/issues"
   },
-  "homepage": "https://github.com/lijiarui/unit#readme",
+  "homepage": "https://github.com/lijiarui/ai-unit#readme",
   "files": [
     "src/index.ts",
     "README.md",

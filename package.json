@@ -1,0 +1,40 @@
+{
+  "name": "unit",
+  "version": "1.0.0",
+  "description": "baidu nlu platform UNIT API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "shx rm -fr dist/*",
+    "dist": "npm run clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "NLP",
+    "NLU",
+    "UNIT"
+  ],
+  "author": "Jiarui Li <ruiruibupt@126.com> (http://blog.botorange.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^9.3.0",
+    "bhttp": "^1.2.4",
+    "brolog": "^1.2.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijiarui/unit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lijiarui/unit/issues"
+  },
+  "homepage": "https://github.com/lijiarui/unit#readme",
+  "files": [
+    "src/index.ts",
+    "README.md",
+    "package.json",
+    "dist/",
+    "ts-config.json"
+  ]
+}

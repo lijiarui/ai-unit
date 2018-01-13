@@ -1,5 +1,5 @@
 {
-  "name": "unit",
+  "name": "unit-api",
   "version": "1.0.0",
   "description": "baidu nlu platform UNIT API",
   "main": "dist/index.js",

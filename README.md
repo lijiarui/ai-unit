@@ -38,6 +38,16 @@ async function main() {
 main()
 ```
 
+Result as follows:
+```
+[PERSON]:我要买电影票
+[BOT]:看哪部电影？
+[PERSON]:心理罪
+[BOT]:去哪个电影院？
+[PERSON]:天幕吧
+[BOT]:订哪天的？
+```
+
 ## API
 1. Unit.getAccessToken()
 2. Unit.query(content: string, sessionId?: string)
